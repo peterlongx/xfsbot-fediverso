@@ -1,0 +1,11 @@
+{
+  "_leggimi": "Elenco di riserva dei domini XFS Bot federati. Serve solo quando i domini di fabbrica non sono raggiungibili: un'installazione nuova legge questo file, ne ricava qualche indirizzo da cui partire e poi prosegue da sola parlando con i domini che trova. Non e' un registro: nessuno deve iscriversi qui per entrare nella rete, e chi c'e' dentro non ha alcun privilegio. Per usarlo, pubblicalo su un URL stabile (per esempio la 'raw' di un repository GitHub) e indicalo nel .env con FEDIVERSE_BOOTSTRAP_URL, separando con uno spazio piu' URL se ne vuoi diversi.",
+  "protocol": 1,
+  "software": "XFS Bot",
+  "updated": "2026-07-27T19:10:00Z",
+  "domains": [
+    { "domain": "https://filestorexfs.com", "name": "FileStore XFS" },
+    { "domain": "https://seriextv.chickenkiller.com", "name": "Jacksonville" },
+    { "domain": "https://archvpsxfs.crabdance.com", "name": "Arch VPS XFS" }
+  ]
+}
